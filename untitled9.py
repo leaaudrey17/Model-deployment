@@ -11,7 +11,8 @@ import streamlit as st
 import pickle
 import numpy as np
 import joblib
-conda list joblib
+!pip install joblib
+
 
 # Load model dari file pickle
 with open("iris_model.pkl", "rb") as model_file:
